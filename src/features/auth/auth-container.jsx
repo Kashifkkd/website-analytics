@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
-import Login from './Login'
-import Signup from './Signup'
+import Login from './login'
+import Signup from './signup'
 
 const AuthContainer = () => {
   const [isLogin, setIsLogin] = useState(true)
