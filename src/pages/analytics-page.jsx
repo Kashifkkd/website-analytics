@@ -20,7 +20,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../co
 import { Badge } from '../components/ui/badge'
 import { selectWebsites, selectSelectedWebsite, fetchWebsites, setSelectedWebsite } from '../store/slices/apiSlice'
 import LoadingScreen from '../components/loading-screen'
-import Sidebar from '../features/dashboard/Sidebar'
 import Input from '../components/ui/input'
 import Button from '../components/ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select'
